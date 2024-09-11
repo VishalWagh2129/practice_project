@@ -1,0 +1,61 @@
+<div class="home_section">
+    <section class="header_section">
+        <header class="mega_header">
+            <div class="__container">
+                <div class="__logo_section">
+                    <a class="__logo" aria-label="Go to Home" href="/">Quantasis</a>
+                </div>
+                <div class="right_section" [class.active]="isMenuOpen">
+                    <nav [class.active]="isMenuOpen">
+                        <div><a class="mobile_logo fn-quango" aria-label="Logo" href="/">Quantasis</a></div>
+                        <div class="menu-item">
+                            <div class="menu-text hasMenu">
+                                <p>Services</p>
+                            </div>
+                            <div class="sub-menu">
+                                <div class="sub-menu_container">
+                                    <a class="content-box flex" href="/services/continuous-integration-pipeline-setup/">
+                                        <div class="content"><span class="title">Cloud Infrastructure and DevOps</span>
+                                        </div>
+                                    </a>
+                                    <a class="content-box flex" href="/services/android-app-development/">
+                                        <div class="content"><span class="title">Mobile Application</span></div>
+                                    </a>
+                                    <a class="content-box flex" href="/services/artificial-intelligence/">
+                                        <div class="content"><span class="title">Artificial Intelligence</span></div>
+                                    </a>
+                                    <a class="content-box flex" href="/services/web-development/">
+                                        <div class="content"><span class="title">Web Application</span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-text">
+                                <p>Blogs</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-text">
+                                <p>Careers</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-text">
+                                <p>Contact us</p>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <button type="button" class="button burgerOpen button-light" title="Hamburger" tabindex="0"
+                    (click)="toggleMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" width="24" height="24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+    </section>
+</div>
